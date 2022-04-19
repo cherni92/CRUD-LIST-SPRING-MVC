@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spring Boot MVC</title>
+
+</head>
+<body>
+<h1 align="center">My First View</h1 >
+
+<ul>
+<li
+<table>
+<th>
+nom :
+</th>
+<th>
+age : 
+</th>
+<th>
+email :
+</th>
+<tr th:each=s:${students}>
+<td
+th:text=${s.nom}>
+</td>
+<td
+th:text=${s.age}>
+</td>
+<td
+th:text=${s.email}>
+</td>
+</table>
+</li>
+</ul>
+</h1>
+</body>
+</html>
